@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "421499174016",
+    "firebase_url": "https://donorspot-9b8f9-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "donorspot-9b8f9",
+    "storage_bucket": "donorspot-9b8f9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:421499174016:android:905a47f336968406af7a65",
+        "android_client_info": {
+          "package_name": "com.example.donorspot_final"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "421499174016-ck2euh7u048djjp4amrtes2fn3mnt0o5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGTzq6oBk-lXS2iBH0saxBUcm8h4ny5-Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "421499174016-ck2euh7u048djjp4amrtes2fn3mnt0o5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/red_background"
+    tools:context=".ProfilePageActivity">
+
+
+        <TextView
+            android:id="@+id/close_profile_button"
+            android:layout_marginTop="15dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/button_close"
+            android:layout_marginHorizontal="10dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            tools:ignore="RtlHardcoded" />
+
+
+    <LinearLayout
+        android:id="@id/dp"
+        android:layout_below="@+id/close_profile_button"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:padding="5dp"
+        android:layout_height="wrap_content"
+        tools:ignore="InvalidId,MissingConstraints">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_picture"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:background="@drawable/circle_background"
+            android:padding="10dp"
+            android:src="@drawable/face_male_background"
+            tools:ignore="MissingConstraints,ImageContrastCheck" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/details"
+        android:layout_below="@+id/dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="NotSibling">
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/name_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_ripple_rectangle"
+                android:gravity="start"
+                android:padding="16dp"
+                android:text="Name :"
+                android:textColor="@color/white"
+                tools:ignore="HardcodedText,TextContrastCheck,VisualLintButtonSize" />
+
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/address_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_ripple_rectangle"
+                android:gravity="start"
+                android:padding="16dp"
+                android:text="Address :"
+                android:textColor="@color/white"
+                tools:ignore="HardcodedText,TextContrastCheck,VisualLintButtonSize" />
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/dob_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_ripple_rectangle"
+                android:gravity="start"
+                android:padding="16dp"
+                android:text="Date of birth :"
+                android:textColor="@color/white"
+                tools:ignore="HardcodedText,TextContrastCheck,VisualLintButtonSize" />
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/blood_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_ripple_rectangle"
+                android:gravity="start"
+                android:padding="16dp"
+                android:text="Blood Group :"
+                android:textColor="@color/white"
+                tools:ignore="HardcodedText,TextContrastCheck,VisualLintButtonSize" />
+
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/mobile_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_ripple_rectangle"
+                android:gravity="start"
+                android:padding="16dp"
+                android:text="Mobile No.  :"
+                android:textColor="@color/white"
+                tools:ignore="HardcodedText,TextContrastCheck,VisualLintButtonSize" />
+
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/email_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_ripple_rectangle"
+                android:gravity="start"
+                android:padding="16dp"
+                android:text="Email :"
+                android:textColor="@color/white"
+                tools:ignore="HardcodedText,TextContrastCheck,VisualLintButtonSize" />
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/password_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_ripple_rectangle"
+                android:gravity="start"
+                android:padding="16dp"
+                android:text="Password :"
+                android:textColor="@color/white"
+                tools:ignore="HardcodedText,TextContrastCheck,VisualLintButtonSize" />
+
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/save_details"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:text="Save"
+        android:textAllCaps="false"
+        android:fontFamily="@font/poppins_bold"
+        android:textSize="18sp"
+        android:letterSpacing="0.2"
+        android:paddingHorizontal="70dp"
+        android:textColor="@color/white"
+        android:background="@drawable/button_ripple_round"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText" />
+
+
+</RelativeLayout>
